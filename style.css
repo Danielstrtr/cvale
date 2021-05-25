@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;700&display=swap");
+
+* {
+  font-family: "Quicksand", sans-serif;
+  box-sizing: border-box;
+  color: #ffff;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  background-image: url(imgs/fondo.jpg);
+  background-blend-mode: difference;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 1440px;
+  width: 100%;
+  max-height: 900px;
+  height: 100vh;
+  position: absolute;
+}
+body {
+  width: 100vw;
+  height: auto;
+  background: linear-gradient(rgba(149, 0, 0, 0.993), rgba(149, 0, 0, 0.096));
+  overflow-x: hidden;
+  position: absolute;
+}
+
+/* fuentes */
+h2 {
+  font-size: 2.187rem;
+  font-weight: 400;
+  line-height: 3.312rem;
+  letter-spacing: 0.312rem;
+}
+p,
+li {
+  font-size: 0.937rem;
+  font-weight: 400;
+  line-height: 1.1rem;
+  letter-spacing: 0.187rem;
+}
+
+/* menu superior */
+
+.menu_superior {
+  top: 0;
+  width: 100%;
+  min-height: 35px;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  z-index: 2;
+  background: rgb(149, 0, 0);
+}
+
+.menu_superior a {
+  font-size: 0.75rem;
+  text-decoration: none;
+}
+
+.menu_superior ul {
+  display: flex;
+  flex-wrap: wrap;
+  width: auto;
+  position: relative;
+  padding-right: 150px;
+}
+.menu_superior li {
+  list-style: none;
+  padding: 0 30px;
+}
+
+/* foto de perfil */
+
+.perfil {
+  position: fixed;
+  background: rgb(149, 0, 0);
+  width: 25em;
+  max-width: 30%;
+  height: 100%;
+  z-index: 1;
+}
+
+.perfil_img {
+  position: relative;
+  width: 70%;
+}
+
+.perfil_img img {
+  width: 100%;
+  height: auto;
+  position: relative;
+  margin-top: 2.5em;
+  margin-left: 3.75em;
+  border-radius: 1.875em;
+}
+
+/* texto de la imagen de perfil */
+
+.perfil_nombre h1 {
+  font-size: 3.187rem;
+  font-weight: 400;
+  letter-spacing: 5px;
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+
+.perfil_titulo h3 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  letter-spacing: 5px;
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+
+/* perfil logos */
+
+.perfil_logos {
+  display: flex;
+  position: relative;
+}
+.perfil_logos ul {
+  position: relative;
+  display: flex;
+}
+.perfil_logos li {
+  display: inline;
+}
+
+.perfil_logos img {
+  width: 50%;
+  margin-top: 1.875em;
+}
+
+.perfil ul:first-child {
+  margin-left: 1.875em;
+}
+
+/* primera pagina */
+
+.primera_pag {
+  position: relative;
+  display: flex;
+  max-width: 100vw;
+  width: 100vw;
+  height: 100vh;
+  padding-left: 30%;
+  padding-right: 5%;
+  text-align: center;
+  justify-content: center;
+  z-index: 0;
+}
+
+.intro {
+  margin-top: 6.25em;
+}
+.intro_texto_1 {
+  padding: 3.75em 3.75em 1.875em 5em;
+}
+
+.intro_texto_2 {
+  padding: 1.875em 3.75em 3.75em 5em;
+}
+
+/* segunda pagina */
+
+.segunda_pag {
+  position: relative;
+  display: flex;
+  max-width: 100vw;
+  width: 100vw;
+  height: 100vh;
+  padding-left: 30%;
+  padding-right: 5%;
+  text-align: center;
+  justify-content: center;
+  z-index: 0;
+}
+
+.segunda_pag_texto {
+  padding-left: 1.25em;
+  margin-top: 4em;
+  height: auto;
+}
+
+.formacion_lista {
+  text-align: left;
+  padding-left: 1.25em;
+}
+
+.formacion_lista li {
+  padding-top: 0.375em;
+}
+
+.habilidades {
+  padding-left: 1.25em;
+  padding-top: 5em;
+  display: flex;
+}
+
+.habilidades_lista ul {
+  padding-left: 3.75em;
+}
+
+.habilidades_lista li {
+  position: relative;
+  text-align: left;
+}
+
+/* tercer pagina */
+
+.tercer_pag {
+  position: relative;
+  display: flex;
+  max-width: 100vw;
+  width: 100vw;
+  height: 100vh;
+  padding-left: 30%;
+  padding-right: 5%;
+  text-align: center;
+  justify-content: right;
+  z-index: 0;
+}
+
+.tercer_pag_texto {
+  margin-top: 6.25em;
+}
